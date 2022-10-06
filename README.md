@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Mahmoud Alaskalany
 - 👀 I’m interested in web development with .Net , Node JS , Angular 
-- 🌱 I’m currently learning Go 
+- 🌱 I’m currently learning Rust 
 - 💞️ I’m looking to collaborate on open source projects with .Net and Node JS
 - 📫 How to reach me mhmoudalaskalany@gmail.com
 

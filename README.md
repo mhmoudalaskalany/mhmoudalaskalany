@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Mahmoud Alaskalany
 - 👀 I’m interested in web development with .Net , Node JS , Python , Angular And Blazor
 - 🌱 I’m currently learning Rust 
-- 💞️ Love yo collaborate on open source projects with .Net , Node JS , Python And Angular
+- 💞️ Love to collaborate on open source projects with .Net , Node JS , Python And Angular
 - 📫 How to reach me mhmoudalaskalany@gmail.com
 
 <!---

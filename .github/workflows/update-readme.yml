@@ -2,7 +2,7 @@ name: Update README with Commit Chart
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily
+    - cron: "*/5 * * * *" # Runs every 5 minutes
   push:
     branches:
       - main

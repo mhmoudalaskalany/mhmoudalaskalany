@@ -31,3 +31,5 @@ jobs:
           git add README.md
           git commit -m 'Update README with commit chart'
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

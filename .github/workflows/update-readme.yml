@@ -3,17 +3,15 @@ name: Update README with Commit Chart
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily
-  push:
-    branches:
-      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    name: Update this repo's README with recent activity
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Generate Commit Chart
         run: |
@@ -23,3 +21,13 @@ jobs:
         run: |
           sed -i '/<!-- commit-chart -->/r commit-chart.svg' README.md
           rm commit-chart.svg
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update README with commit chart'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

@@ -20,6 +20,9 @@ jobs:
           curl -o commit-chart.svg "https://ghchart.rshah.org/mhmoudalaskalany"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Debug Commit Chart
+        run: |
+          cat commit-chart.svg
 
       - name: Update README
         run: |

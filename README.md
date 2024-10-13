@@ -5,6 +5,10 @@
 - 💞️ Love to collaborate on open source projects with .Net , Node JS , Python And Angular
 - 📫 How to reach me mhmoudalaskalany@gmail.com
 
+
+## Commit Activity
+
+![Commit Chart](https://ghchart.rshah.org/your-github-username)
 <!---
 mhmoudalaskalany/mhmoudalaskalany is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.

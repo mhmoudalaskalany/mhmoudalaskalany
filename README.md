@@ -10,8 +10,8 @@
 
 ![Commit Chart](https://ghchart.rshah.org/mhmoudalaskalany)
 
-## Contributions
-![mhmoudalaskalany's Contributions](https://github.pumbas.net/api/contributions/mhmoudalaskalany?days=30)
+## Contributions In Last 100 Days
+![mhmoudalaskalany's Contributions](https://github.pumbas.net/api/contributions/mhmoudalaskalany?days=100&colour=16A085)
 <!---
 mhmoudalaskalany/mhmoudalaskalany is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
